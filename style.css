@@ -94,7 +94,7 @@ main {
     height: 50%;
     background-color: gray;
     margin-right: 4vw;
-    background-image: url(img/september-5th-unsplash.jpg);
+    background-image: url(img/lion-eating-sun.jpg);
     background-position: center;
     background-size: cover;
     color: #F9FAF8;
@@ -107,3 +107,61 @@ main {
     text-decoration: none;
     margin: 0px 3px;
 }
+
+.card-section {
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 70vh;
+    padding: 5vh 10vw 0px 0px;
+}
+
+.card-section h1 {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.card-section ul {
+    list-style-type: none;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    gap: 4vw;
+}
+
+.card-section li {
+    width: 22vh;
+    font-size: 20px;
+    color: #56575A;
+}
+
+.card-section .card-img {
+    width: 22vh;
+    height: 22vh;
+    border: 4px solid #3882F6;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    background-position: center;
+    background-size: cover;
+}
+
+.card-container .programming {
+    background-image: url(img/programming-by-clement-helardot.jpg); 
+}
+
+.card-container .books {
+    background-image: url(img/bookshelf-by-inaki-del-olmo.jpg);
+}
+
+.card-container .writing {
+    background-image: url(img/writing-by-aaron-burden.jpg);
+}
+
+.card-container .events {
+    background-image: url(img/business-event-by-jonas-jacobsson.jpg);
+}
+
+
+
