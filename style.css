@@ -114,7 +114,7 @@ main {
     flex-direction: column;
     align-items: center;
     height: 70vh;
-    padding: 5vh 10vw 0px 0px;
+    padding: 5vh 0px 0px 0px;
 }
 
 .card-section h1 {
@@ -163,5 +163,32 @@ main {
     background-image: url(img/business-event-by-jonas-jacobsson.jpg);
 }
 
+.quote-of-the-day {
+    width: 100%;
+    height: 63vh;
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.quote-of-the-day .quote-box {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    color: #1F2937;
+    gap: 1vh;
+}
 
+.quote-of-the-day .quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.quote-of-the-day .quote-sayer {
+    font-size: 24px;
+    font-weight: 400;
+}
